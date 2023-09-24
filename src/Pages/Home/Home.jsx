@@ -1,11 +1,16 @@
-import Banner from "../../Components/Banner";
+import { useLoaderData } from "react-router-dom";
+import Banner from "../../Components/Banner/Banner";
+import Donations from "../../Components/Donations/Donations";
 
 
 const Home = () => {
+
+    const donations = useLoaderData()
+
     return (
         <div>
             <Banner></Banner>
-            <h2>cards</h2>
+            <Donations donations={donations}></Donations>
         </div>
     );
 };
