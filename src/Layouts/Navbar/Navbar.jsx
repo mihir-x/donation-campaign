@@ -4,42 +4,42 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <div>
+        <div className="flex flex-col md:flex-row justify-between gap-5 items-center p-2 my-2 md:my-5 lg:my-10">
             <div>
                 <img src="./Logo.png" alt="" />
             </div>
-            <div>
-                <li className="font-bold">
+            <ul className="list-none text-lg flex gap-7">
+                <li>
                     <NavLink
                         to="/"
                         className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+                            isPending ? "pending" : isActive ? "font-bold text-[#FF444A] underline" : ""
                         }
                     >
                         Home
                     </NavLink>
                 </li>
-                <li className="font-bold">
+                <li>
                     <NavLink
-                        to="/"
+                        to="/donation"
                         className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+                            isPending ? "pending" : isActive ? "font-bold text-[#FF444A] underline" : ""
                         }
                     >
                         Donation
                     </NavLink>
                 </li>
-                <li className="font-bold">
+                <li>
                     <NavLink
-                        to="/"
+                        to="/statistics"
                         className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+                            isPending ? "pending" : isActive ? "font-bold text-[#FF444A] underline" : ""
                         }
                     >
                         Statistics
                     </NavLink>
                 </li>
-            </div>
+            </ul>
         </div>
     );
 };
