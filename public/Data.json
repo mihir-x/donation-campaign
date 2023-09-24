@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "image": "donation_image_1.jpg",
+      "title": "Clean Water for All",
+      "category": "Water",
+      "category_bg_color": "#3498db",
+      "card_bg_color": "#ecf0f1",
+      "text_color": "#2c3e50",
+      "description": "Help provide clean and safe drinking water to communities in need around the world.",
+      "price": 25
+    },
+    {
+      "id": 2,
+      "image": "donation_image_2.jpg",
+      "title": "Education Empowerment",
+      "category": "Education",
+      "category_bg_color": "#e74c3c",
+      "card_bg_color": "#f5b7b1",
+      "text_color": "#2c3e50",
+      "description": "Support access to quality education for underprivileged children and youth.",
+      "price": 30
+    },
+    {
+      "id": 3,
+      "image": "donation_image_3.jpg",
+      "title": "Hunger Relief",
+      "category": "Food",
+      "category_bg_color": "#e67e22",
+      "card_bg_color": "#f9dbbd",
+      "text_color": "#2c3e50",
+      "description": "Help combat hunger by providing nutritious meals to those in need.",
+      "price": 20
+    },
+    {
+      "id": 4,
+      "image": "donation_image_4.jpg",
+      "title": "Medical Aid",
+      "category": "Healthcare",
+      "category_bg_color": "#2ecc71",
+      "card_bg_color": "#c7e8a8",
+      "text_color": "#2c3e50",
+      "description": "Support healthcare initiatives that provide medical assistance to vulnerable populations.",
+      "price": 35
+    },
+    {
+      "id": 5,
+      "image": "donation_image_5.jpg",
+      "title": "Clean Water Initiative",
+      "category": "Water",
+      "category_bg_color": "#3498db",
+      "card_bg_color": "#ecf0f1",
+      "text_color": "#2c3e50",
+      "description": "Provide clean water solutions to remote areas lacking access to safe drinking water.",
+      "price": 27
+    },
+    {
+      "id": 6,
+      "image": "donation_image_6.jpg",
+      "title": "Empowering Girls' Education",
+      "category": "Education",
+      "category_bg_color": "#e74c3c",
+      "card_bg_color": "#f5b7b1",
+      "text_color": "#2c3e50",
+      "description": "Support programs that promote education and empowerment for girls worldwide.",
+      "price": 32
+    },
+    {
+      "id": 7,
+      "image": "donation_image_7.jpg",
+      "title": "Food Bank Assistance",
+      "category": "Food",
+      "category_bg_color": "#e67e22",
+      "card_bg_color": "#f9dbbd",
+      "text_color": "#2c3e50",
+      "description": "Contribute to food banks to help provide meals to individuals and families facing hunger.",
+      "price": 22
+    },
+    {
+      "id": 8,
+      "image": "donation_image_8.jpg",
+      "title": "Healthcare Access Project",
+      "category": "Healthcare",
+      "category_bg_color": "#2ecc71",
+      "card_bg_color": "#c7e8a8",
+      "text_color": "#2c3e50",
+      "description": "Ensure access to quality healthcare services for underserved communities.",
+      "price": 38
+    },
+    {
+      "id": 9,
+      "image": "donation_image_9.jpg",
+      "title": "Safe Drinking Water Fund",
+      "category": "Water",
+      "category_bg_color": "#3498db",
+      "card_bg_color": "#ecf0f1",
+      "text_color": "#2c3e50",
+      "description": "Support initiatives that provide clean and safe drinking water to those in need.",
+      "price": 29
+    },
+    {
+      "id": 10,
+      "image": "donation_image_10.jpg",
+      "title": "Scholarship Program",
+      "category": "Education",
+      "category_bg_color": "#e74c3c",
+      "card_bg_color": "#f5b7b1",
+      "text_color": "#2c3e50",
+      "description": "Enable deserving students to access higher education through scholarship opportunities.",
+      "price": 28
+    },
+    {
+      "id": 11,
+      "image": "donation_image_11.jpg",
+      "title": "Community Food Drive",
+      "category": "Food",
+      "category_bg_color": "#e67e22",
+      "card_bg_color": "#f9dbbd",
+      "text_color": "#2c3e50",
+      "description": "Organize food drives to collect and distribute food to those facing food insecurity.",
+      "price": 24
+    },
+    {
+      "id": 12,
+      "image": "donation_image_12.jpg",
+      "title": "Medical Outreach Mission",
+      "category": "Healthcare",
+      "category_bg_color": "#2ecc71",
+      "card_bg_color": "#c7e8a8",
+      "text_color": "#2c3e50",
+      "description": "Support medical teams providing care in underserved and remote areas.",
+      "price": 34
+    }
+  ]
+  
