@@ -33,7 +33,7 @@ const Donation = () => {
                         }
                     </div>
                 </div>
-                    : <div className="h-screen md:h-[50vh] flex justify-center items-center"><p>no item here</p></div>
+                    : <div className="h-screen md:h-[50vh] flex justify-center items-center"><h2 className=" text-2xl font-bold">You have not donated yet</h2></div>
             }
         </div >
     );
