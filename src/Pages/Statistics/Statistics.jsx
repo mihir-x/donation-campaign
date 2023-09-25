@@ -30,7 +30,7 @@ const Statistics = () => {
         const y = cy + radius * Math.sin(-midAngle * (Math.PI/180)) 
         return (
             <text x={x} y={y} fill="white" textAnchor="middle">
-                {`${(percent*100).toFixed(2)}`}
+                {`${(percent*100).toFixed(2)} %`}
             </text>
         ) 
     }
