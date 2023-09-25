@@ -18,7 +18,7 @@ const Statistics = () => {
     const data = [
         {
             name: 'Total Donation',
-            value: 12
+            value: 12- myDonation
         },
         {name: 'my Donation', value: myDonation}
     ]
