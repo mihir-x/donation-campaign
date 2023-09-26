@@ -29,7 +29,7 @@ const Donations = ({searchedKey,donations}) => {
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 my-2 md:my-6 lg:mt-10 lg:mb-20 p-2'>
             {
-                searchedDonation?.map(donation => <DonationCard key={donation.id} donation={donation}></DonationCard>)
+                searchedDonation.length>0 ? searchedDonation?.map(donation => <DonationCard key={donation.id} donation={donation}></DonationCard>): <h1 className='font-bold text-3xl'>No Such Items</h1>
             }
         </div>
     );
