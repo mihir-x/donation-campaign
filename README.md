@@ -1,8 +1,19 @@
-# React + Vite
+# Donation Campaign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an website about Donation Campaign
 
-Currently, two official plugins are available:
+# Here are some features of this projects
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- There are four categories of donation options
+    - Water
+    - Food
+    - Education
+    - Healthcare
+
+- If you select any donation card you will see the details and click on the donate button to donate
+
+- Your donations will be shown in Donation page
+
+- In the Donation page there will be maximum of four donations by default. If you have more than 4 donation you  will see a See All button. Clicking that button will show you all the donations you made
+
+- In the Statistics page you will see a pie chart showing Available donations vs the donations you have made
