@@ -29,14 +29,14 @@ const Statistics = () => {
         const x = cx + radius * Math.cos(-midAngle * (Math.PI/180))
         const y = cy + radius * Math.sin(-midAngle * (Math.PI/180)) 
         return (
-            <text x={x} y={y} fill="white" textAnchor="middle">
+            <text className="font-bold" x={x} y={y} fill="white" textAnchor="middle">
                 {`${(percent*100).toFixed(1)} %`}
             </text>
         ) 
     }
 
     return (
-        <div className="h-screen md:h-[70vh] flex justify-center items-center">
+        <div className="h-screen md:h-[70vh] flex flex-col justify-center items-center">
             <PieChart width={300} height={300}>
                 <Pie data={data} dataKey='value' labelLine={false} label={customLabel}>
                     {
