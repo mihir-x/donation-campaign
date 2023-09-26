@@ -16,10 +16,9 @@ const Donation = () => {
             setIsFound(true)
         }
     }, [])
-    console.log(isSeeAllClicked);
 
     return (
-        <div>
+        <div className="max-w-screen-lg mx-auto">
             {
                 isFound ? <div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-2 md:mb-6 lg:mb-10 p-2">

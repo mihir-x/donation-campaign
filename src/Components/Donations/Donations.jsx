@@ -24,7 +24,7 @@ const Donations = ({ searchedKey, donations }) => {
         }
     }, [searchedKey, donations])
 
-    console.log(searchedKey)
+    
 
     return (
         <div className='mt-4 text-center'>

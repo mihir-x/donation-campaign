@@ -39,8 +39,8 @@ const DonationDetails = () => {
     }
 
     return (
-        <div className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md mb-2 md:mb-6 lg:mb-14">
-            <div className="relative m-0  rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
+        <div className="max-w-screen-lg mx-auto md:h-screen relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md mb-2 md:mb-6 lg:mb-14">
+            <div className="relative m-0 md:h-[60%] rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
                 <img
                     src={image}
                     alt="ui/ux review check"
@@ -55,7 +55,7 @@ const DonationDetails = () => {
                 <h4 className="block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                     {title}
                 </h4>
-                <p className="mt-3 block font-sans text-xl font-normal leading-relaxed text-gray-700 antialiased">
+                <p className="mt-3 block font-sans text-sm md:text-xl font-normal leading-relaxed text-gray-700 antialiased">
                     {description}
                 </p>
             </div>
