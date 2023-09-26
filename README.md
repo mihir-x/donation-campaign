@@ -14,6 +14,6 @@ This is an website about Donation Campaign
 
 - Your donations will be shown in Donation page
 
-- In the Donation page there will be maximum of four donations by default. If you have more than 4 donation you  will see a See All button. Clicking that button will show you all the donations you made
+- In the Donation page there will be maximum of four donation card by default. If you have more than 4 donation you  will see a See All button. Clicking that button will show you all the donations you have made
 
 - In the Statistics page you will see a pie chart showing Available donations vs the donations you have made
